@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .box {
+        height: 400px;
+        width: 50%;
+        background-color: rgb(57, 203, 203);
+        margin-left: 25%;
+        padding-bottom: 35px;
+        padding-top: 15px;
+      }
+      .box > h2 {
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+      }
+      form {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+      }
+      form > input {
+        height: 50px;
+        margin: 0px 50px 0px 50px;
+        border: none;
+        font-family: "Poppins", sans-serif;
+        padding-left: 10px;
+      }
+      form > .submit {
+        background-color: rgb(21, 122, 122);
+        color: white;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h2>- Visitor -</h2>
+      <form>
+        <input type="text" id="name" placeholder="Enter your full Name" />
+        <input type="text" id="email" placeholder="Enter your email id" />
+        <input type="text" id="organization" placeholder="Organization Name" />
+        <input type="button" class="submit" value="SIGN UP" />
+        <input type="button" class="submit" value="RETURN" />
+      </form>
+    </div>
+  </body>
+</html>
